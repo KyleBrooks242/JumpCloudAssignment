@@ -25,11 +25,16 @@ Assume that an end user will be making concurrent calls into this function.
 
 # Usage:
 I chose to write this program in Python, using Python 3.5. To run this, the user will need to have
-Python 3.5 or later installed on their system. 
+Python 3.5 or later installed on their system. Python can be downloaded here:
 
+https://www.python.org/downloads/
 
+Follow the instructions on their website to download and install Python. 
+
+The heart of this program is actionClass.py. It is what implements the functionality specified in the Overview section.
 
 actionClass.py can be imported into your python program using the following:
+
   `from actionClass import *`
 
 
