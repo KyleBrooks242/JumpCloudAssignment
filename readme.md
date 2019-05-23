@@ -30,7 +30,8 @@ This class can be imported into your python program using the following:
 
 Example:
 
-`from actionClass import *
+```
+from actionClass import *
 
 def main():
   testClass = actionClass()
@@ -41,7 +42,8 @@ def main():
   testClass.addAction(sampleAction1)
   testClass.addAction(sampleAction2)
 
-  testClass.getStats()`
+  testClass.getStats()
+  ```
 
   Output would be:
 
