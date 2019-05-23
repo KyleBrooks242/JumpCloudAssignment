@@ -65,7 +65,9 @@ def main():
 Please see 'ConcurrencyTest.py' to see a full example use case demonstrating concurrency (See 'Testing' section below)
 
 **Note that actionClass.py will need to be in the same directory as your python program,
-or the file location added to your PYTHON_PATH**
+or the file location added to your PYTHONPATH**
+
+To edit your PYTHONPATH:
 
 Linux/Mac:
 Edit your  ~/.bashrc file and include this line at the bottom:
