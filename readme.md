@@ -61,6 +61,7 @@ Edit your  ~/.bashrc file and include this line at the bottom:
 `export PYTHONPATH="${PYTHONPATH}:/my/other/path"`
 
 Run the following to pick up these changes in your terminal:
+
 `source ~/.bashrc`
 
 Windows:
