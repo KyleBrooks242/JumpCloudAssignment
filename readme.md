@@ -47,10 +47,10 @@ def main():
 
   Output would be:
 
-  [{"action": "jump", "avg": 100.0}, {"action": "skip", "avg": 50.0}]
+  `[{"action": "jump", "avg": 100.0}, {"action": "skip", "avg": 50.0}]`
 
 
-Please see sample 'ConcurrencyTest' to see a full example use case.
+Please see sample 'ConcurrencyTest.py' to see a full example use case demonstrating concurrency
 
 **Note that actionClass.py will need to be in the same directory as your python program,
 or the file location added to your PYTHON_PATH**
