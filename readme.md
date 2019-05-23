@@ -85,12 +85,18 @@ https://youtu.be/Y2q_b4ugPWk?t=49
 # Testing
 To test actionClass.py, I wrote ConcurrencyTest.py. You can look at the comments in the code to get an understanding
 of what the code does. To run ConcurrencyTest.py:
-In 
+
+1. In terminal/cmd, navigate to the working directory
+
+2. Type `python3 ConcurrencyTest.py` and hit 'Enter'
 
 
 # Future Considerations:
 Currently, the code supports adding 'actions', but not removing them. I think
-this would be neat functionality to have.
+this would be neat functionality to have. This 'remove' functionality could take
+an 'action', and remove it from the action_data list, if it existed. Currently, 
+any actions of the same type are aggregated. In order to support removing individual
+actions, this would require a complete redo of the existing architecture. 
 
 # Tricky Spots:
 If you take a look in actionClass.addAction(self, data), you'll notice this line
